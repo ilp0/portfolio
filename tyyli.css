@@ -1,47 +1,142 @@
-#menuleft  {
+/* perus setit */
+h1 {
     
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 48px;
+}
+h2{
+    
+    font-family: 'Lora',serif;
+    font-style:italic;
+    text-align:center;
+}
+
+p {
+    text-align:left;
+    font-family: 'Lora', serif;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+a:visited{
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* yksittäiset alueet */
+
+
+
+#main {
+    
+    padding: 20px;
+    height:100vh;
+    display:block;
+    background-color: aliceblue;
+    margin: 0 0 0 350px;
+    
+}
+
+#menuleft  {
+    font-family: 'Ubuntu', sans-serif;
     width:350px;
     height:100vh;
     display:block;
     background-color: #0747A6;
     float:left;
     margin: 0 0 0 0;
+    position: fixed;
+    text-transform:capitalize;
 }
 
-#main {
-    
-    width:100%;
-    height:100vh;
-    display:block;
-    background-color: aliceblue;
-    margin: 0 0 0 0;
-    
-}
 
 #otsikko {
     
-    font-family: 'Source Sans Pro', sans-serif;
+    
     -webkit-font-smoothing: antialiased;
      -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
     color:white;
     text-align:center;
-    padding:30px;
+    padding:30px 30px 20px 30px;
     font-size: 2.4em;
     
 }
 
 #otsikko:hover{
-    animation: text-shadow-pop-bl 0.6s both;
     
 }
 
-@keyframes text-shadow-pop-bl {
-  0% {
-    text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
-    transform: translateX(0) translateY(0);
-  }
-  100% {
-    text-shadow: -1px 1px #555555, -2px 2px #555555, -3px 3px #555555, -4px 4px #555555, -5px 5px #555555, -6px 6px #555555, -7px 7px #555555, -8px 8px #555555;
-    transform: translateX(8px) translateY(-8px);
-  }
+#profkuva {
+    border-style:solid;
+    border-width:10px;
+    border-color:dodgerblue;
+    border-radius: 50%;
+    margin: auto;
+    display:block;
 }
+#profkuva:hover{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+#sidebar {
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+    padding:10px;
+    
+}
+#sidebar ul{
+    list-style-type:none;
+}
+
+#sidebar li{
+    border-radius:10px;
+    list-style-type:none;
+    margin:10px;
+    padding:10px;
+    border-width:0px;
+    border-color:white;
+    border-style:solid;
+    
+}
+
+#sidebar li:hover {
+    
+    background-color:white;
+    color:black;
+      -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+    
+}
+#profilesubtitle{
+    color:white;
+    -webkit-font-smoothing: antialiased;
+     -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    padding: 20px 20px 0px 20px;
+    
+    
+}
+
+/* efektit ja muut erikoisuudet */
+
+
