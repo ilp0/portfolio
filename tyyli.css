@@ -34,7 +34,6 @@ a {
 /* yksittäiset alueet */
 
 
-
 #main {
     
     padding: 20px;
@@ -137,6 +136,27 @@ a {
     
 }
 
+#mobileTopBar{
+    display:none;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 780px){ 
+  
+    #mobileTopBar {
+        display:block;
+        height: 400px;
+        background-color: rgb(7, 73, 166);
+        margin: 0 0 0 0;
+    }
+    #menuleft{
+        display:none;
+    }
+    #main {
+        margin: 0 0 0 0px;
+    }
+}
 /* efektit ja muut erikoisuudet */
 
 
