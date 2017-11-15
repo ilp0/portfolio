@@ -140,13 +140,14 @@ a {
     display:none;
 }
 
+/* mobiili optimisaatio */
+
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 780px){ 
   
     #mobileTopBar {
         display:block;
-        height: 400px;
         background-color: rgb(7, 73, 166);
         margin: 0 0 0 0;
     }
@@ -156,7 +157,11 @@ and (max-device-width : 780px){
     #main {
         margin: 0 0 0 0px;
     }
+    #profilesubtitle{
+        padding: 20px 20px 20px 20px;
+    }
 }
+
 /* efektit ja muut erikoisuudet */
 
 
