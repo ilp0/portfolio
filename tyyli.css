@@ -33,6 +33,15 @@ a {
 
 /* yksittäiset alueet */
 
+#social-table{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+td {
+    width: 40px;
+}
+
 
 #main {
     
@@ -138,6 +147,7 @@ a {
     display:none;
 }
 
+
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 780px){ 
@@ -168,6 +178,7 @@ and (max-device-width : 780px){
     h1 {
         font-size: 5em;
     }
+
 }
 
 /* efektit ja muut erikoisuudet */
