@@ -147,22 +147,18 @@ td {
 }
 #mobMenuContainer{
     position:fixed;
-    top: 2%;
-    left: 5%;
+    top: 15px;
+    left: 15px;
 }
 #mobileNavBar{
     display:none;
-    position: fixed;
-}
-.mobnav {
+    border-radius: 20px;
     font-family: 'Ubuntu', sans-serif;
-    
     background-color:dodgerblue;
     overflow: hidden;
     position:absolute;
-    top:95%;
-    left: 10%;
 }
+
 .mobnav a {
     float: left;
     display: block;
@@ -190,6 +186,9 @@ and (max-device-width : 780px){
         margin: 0 0 0 0;
         width:100%;
     }
+    #profkuva {
+        margin: auto;
+    }
     #menuleft{
         display:none;
     }
@@ -197,19 +196,19 @@ and (max-device-width : 780px){
         margin: 0 0 0 0px;
     }
     #profilesubtitle{
-        padding: 20px 20px 50px 20px;
+        padding: 0px 20px 20px 20px;
         margin-top: 50px;
-        font-size: 3em;
+        font-size: 1.8em;
     }
     #otsikko{
-        font-size: 5em;
+        font-size: 4em;
         margin-bottom: 50px;
     }
     p {
-        font-size: 2.4em;
+        font-size: 1em;
     }
     h1 {
-        font-size: 5em;
+        font-size: 2.5em;
     }
     #mobileNavBar{
         display:block;
@@ -231,10 +230,11 @@ and (max-device-width : 780px){
     
       .mobnav.responsive {
           position: absolute;
-          width:400px;
+          width:150px;
+          
         }
         
-      .mobnav.responsive a.icon {
+    .mobnav.responsive a.icon {
         position: absolute;
         left: 0;
         top: 0;
@@ -245,11 +245,11 @@ and (max-device-width : 780px){
     display: block;
     text-align: left;
     }
-.mobnav.responsive ul {
-    padding-top: 50px;
-    list-style-type: none;
-    padding-left: 5px;
-}
+    .mobnav.responsive ul {
+        padding-top: 50px;
+        list-style-type: none;
+        padding-left: 5px;
+    }
 
 }
 
