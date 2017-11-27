@@ -188,6 +188,7 @@ and (max-device-width : 780px){
         display:block;
         background-color: rgb(7, 73, 166);
         margin: 0 0 0 0;
+        width:100%;
     }
     #menuleft{
         display:none;
@@ -201,7 +202,7 @@ and (max-device-width : 780px){
         font-size: 3em;
     }
     #otsikko{
-        font-size: 7em;
+        font-size: 5em;
         margin-bottom: 50px;
     }
     p {
