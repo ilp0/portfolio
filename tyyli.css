@@ -239,6 +239,9 @@ text-align:center;
 .mobnav .icon {
     display: none;
 }
+#mobMenuLinks{
+    list-style:none;
+}
 
 @media only screen 
 and (min-device-width : 320px) 
@@ -261,8 +264,9 @@ and (max-device-width : 780px){
     }
     #profilesubtitle_m{
         padding: 0px 20px 20px 20px;
-        margin-top: 50px;
+        margin-top: 10px;
         font-size: 1.8em;
+        color:white;
     }
     #otsikko{
         font-size: 4em;
