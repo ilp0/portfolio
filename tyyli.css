@@ -7,7 +7,7 @@ h1 {
     padding: 10px;
 }
 h2{
-    
+
     font-family: 'Lora',serif;
     font-style:italic;
     text-align:center;
@@ -68,7 +68,6 @@ td {
     float:left;
     margin: 0 0 0 0;
     position: fixed;
-    text-transform:capitalize;
 }
 
 
