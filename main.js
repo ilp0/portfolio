@@ -23,7 +23,7 @@ function klikkeri(){
         text.innerHTML = "tästä lähti ilmoitus ilpolle ip-osoitteesi kera että täällä joku klikkailee hulluna profiilikuvaa";        
     }
     if (count > 999){
-        text.innerHTML = "voitit pelin, luuseri."
+        text.innerHTML = "voitit pelin, luuseri"
     }
 }
 
