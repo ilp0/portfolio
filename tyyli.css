@@ -186,7 +186,7 @@ object-fit: contain;
 .workTable p{
 text-align:center;
 }
-#cv, #portfolio, #minusta {
+#cv, #portfolio, #minusta, #taidot {
     display:flex;
     flex-wrap:wrap;
 }
@@ -231,6 +231,10 @@ text-align:center;
 }
 #mobMenuLinks{
     list-style:none;
+}
+progress {
+    background-color: whitesmoke;
+    border: solid 1px;
 }
 
 @media only screen 
