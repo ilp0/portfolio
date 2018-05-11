@@ -164,9 +164,10 @@ td {
 
 }
 /* IE flexboxi korjaus */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    .kortti {min-width:30%;}
+/*@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {*/
+    .kortti {min-width:30%;
 }
+
 
 .korttiImg{
 padding: 20px;
