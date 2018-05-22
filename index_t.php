@@ -90,7 +90,7 @@ if($_GET['lang'] == 'eng') {
     createPfCard('torvinen-rouvinen.jpg', 'http://torvinen-rouvinen.fi', 'torvinen-rouvinen.fi', 'Asiakastyö taiteilijoille Meeri Torvinen-Rouvinen ja Maria Rouvinen-Mäkelä', 'Website for artists Meeri Torvinen-Rouvinen and Maria Rouvinen-Mäkelä');
     createPfCard('virevalmennus.jpg', 'http://virevalmennus.fi', 'virevalmennus.fi', 'Asiakastyö varkautelaiselle Personal Trainerille', 'Website for a Personal Trainer');
     createPfCard('screenshot.png', 'https://github.com/ilp0/typest', 'Typest (GPLv3)', 'Komentorivillä toimiva kirjoitusnopeustesti. Ohjelmoitu C++ kielellä linux ympäristössä. Highscore systeemi PHP/MariaDB.', 'Typing test in linux terminal. Programmed in C++ using ncurses library. Web based highscores done with PHP/MariaDB');
-    createPfCard('cliffhanger.jpg', 'https://play.google.com/store/apps/details?id=com.Leapsmith.Cliffhanger', 'Cliffhanger', 'Android-peli ohjelmoitu C#-kielellä Unityssä.<br><b>>2500 latausta<br>4,33/5★</b>', 'Android game programmed in C# using Unityssä.<br><b>>2500 Downloads<br>4,33/5★</b>';
+    createPfCard('cliffhanger.jpg', 'https://play.google.com/store/apps/details?id=com.Leapsmith.Cliffhanger', 'Cliffhanger', 'Android-peli ohjelmoitu C#-kielellä Unityssä.<br><b>>2500 latausta<br>4,33/5★</b>', 'Android game programmed in C# using Unityssä.<br><b>>2500 Downloads<br>4,33/5★</b>');
     createPfCard('drawyourshield.jpg', 'https://play.google.com/store/apps/details?id=com.Leapsmith.DrawYourShield', 'Draw Your Shield', 'Android-peli ohjelmoitu C#-kielellä Unityssä. <br><b>>250 latausta<br>4.43/5★</b>' 'Android game programmed in C# using Unity.<br><b>>250 Downloads<br>4,33/5★</b>');
 ?>
 </div>
