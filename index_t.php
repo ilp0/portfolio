@@ -121,7 +121,37 @@ if($_GET['lang'] == 'eng') {
     'Draw Your Shield', 
     'Android-peli ohjelmoitu C#-kielellä Unityssä. <br><b>>250 latausta<br>4.43/5★</b>', 
     'Android game programmed in C# using Unity.<br><b>>250 Downloads<br>4,33/5★</b>');
+    
+    createPfCard('kiekko.jpg', 
+    'https://github.com/ilp0/kiekko',
+    'Kiekko (GPLv3) WiP',
+    'Pyöritä haluamaasi kiekkoa haluamasi ajan välein. Kontrolloi kiekkoa älypuhelimella tai tietokoneella web-selaimen avulla',
+    'Spin a desired disk after a desired amount of time. Control the disc with your smartphone or computer via a web-browser');
+    
+
+    if($_GET['lang'] === 'en'){
+    echo('<div class="kortti">
+                <div class="web_korttiImg">
+                    <iframe width="350" height="250" src="https://www.youtube.com/embed/I5RO4G2qpZM"  allowfullscreen></iframe>
+                    </div>
+                <div class="korttiContainer">
+                    <h3>LED-panel demo</h3>
+                        <p>LED-panel demo programmed on Flowcode 7 to a microcontroller.</p>
+                </div>
+        </div>');  
+    } else {
+    echo('<div class="kortti">
+                <div class="web_korttiImg">
+                    <iframe width="350" height="250" src="https://www.youtube.com/embed/I5RO4G2qpZM"  allowfullscreen></iframe>
+                    </div>
+                <div class="korttiContainer">
+                    <h3>LED-valotaulu demo</h3>
+                        <p>LED-valotaulun ohjelmointi ja demon tuottaminen Flowcode 7:llä. Yksi töistä Matrix Technology Solutionsilla.</p>
+                </div>
+        </div>');     
+    }
 ?>
+    
 </div>
 <h1>CV</h1>
 <div id="cv">
