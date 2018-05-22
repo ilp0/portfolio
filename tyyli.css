@@ -176,9 +176,9 @@ object-fit: contain;
 
 }
 
-.web_korttiImg img{
+img {
     width:100%;
-    }
+}
 
 .web_korttiImg{
     padding: 0px;
