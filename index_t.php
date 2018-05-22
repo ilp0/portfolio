@@ -290,6 +290,7 @@ if($_GET['lang'] == 'eng') {
                                                 <p>Luonteelta rento ja joustava</p>
                                             </li>');
                                             }
+                                        ?>
                                       </ul>
 
                                 </table>
