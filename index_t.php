@@ -1,5 +1,9 @@
 <?php
 include './p/pf_card.php';
+$current = 'Nykyinen';
+if($_GET['lang'] == 'eng') {
+    $current = 'Current';
+}
 ?>
 
 <!DOCTYPE html> 
@@ -82,13 +86,73 @@ include './p/pf_card.php';
 
     <div id="portfolio">
 <?php
-    createPfCard('varkaudentaekwondo.jpg', 'http://varkaudentaekwondo.fi', 'varkaudentaekwondo.fi', 'Asiakastyö varkautelaiselle taekwondo seuralle');
-    createPfCard('torvinen-rouvinen.jpg', 'http://torvinen-rouvinen.fi', 'torvinen-rouvinen.fi', 'Asiakastyö taiteilijoille Meeri Torvinen-Rouvinen ja Maria Rouvinen-Mäkelä');
-    createPfCard('virevalmennus.jpg', 'http://virevalmennus.fi', 'virevalmennus.fi', 'Asiakastyö varkautelaiselle Personal Trainerille');
-    createPfCard('screenshot.png', 'https://github.com/ilp0/typest', 'Typest (GPLv3)', 'Komentorivillä toimiva kirjoitusnopeustesti. Ohjelmoitu C++ kielellä linux ympäristössä. Highscore systeemi PHP/MariaDB.');
-    createPfCard('cliffhanger.jpg', 'https://play.google.com/store/apps/details?id=com.Leapsmith.Cliffhanger', 'Cliffhanger', 'Android-peli ohjelmoitu C#-kielellä Unityssä.<br><b>>2500 latausta<br>4,33/5★</b>');
-    createPfCard('drawyourshield.jpg', 'https://play.google.com/store/apps/details?id=com.Leapsmith.DrawYourShield', 'Draw Your Shield', 'Android-peli ohjelmoitu C#-kielellä Unityssä. <br><b>>250 latausta<br>4.43/5★</b>');
+    createPfCard('varkaudentaekwondo.jpg', 'http://varkaudentaekwondo.fi', 'varkaudentaekwondo.fi', 'Asiakastyö varkautelaiselle taekwondo seuralle', 'Website for Varkauden Taekwondo');
+    createPfCard('torvinen-rouvinen.jpg', 'http://torvinen-rouvinen.fi', 'torvinen-rouvinen.fi', 'Asiakastyö taiteilijoille Meeri Torvinen-Rouvinen ja Maria Rouvinen-Mäkelä', 'Website for artists Meeri Torvinen-Rouvinen and Maria Rouvinen-Mäkelä');
+    createPfCard('virevalmennus.jpg', 'http://virevalmennus.fi', 'virevalmennus.fi', 'Asiakastyö varkautelaiselle Personal Trainerille', 'Website for a Personal Trainer');
+    createPfCard('screenshot.png', 'https://github.com/ilp0/typest', 'Typest (GPLv3)', 'Komentorivillä toimiva kirjoitusnopeustesti. Ohjelmoitu C++ kielellä linux ympäristössä. Highscore systeemi PHP/MariaDB.', 'Typing test in linux terminal. Programmed in C++ using ncurses library. Web based highscores done with PHP/MariaDB');
+    createPfCard('cliffhanger.jpg', 'https://play.google.com/store/apps/details?id=com.Leapsmith.Cliffhanger', 'Cliffhanger', 'Android-peli ohjelmoitu C#-kielellä Unityssä.<br><b>>2500 latausta<br>4,33/5★</b>', 'Android game programmed in C# using Unityssä.<br><b>>2500 Downloads<br>4,33/5★</b>';
+    createPfCard('drawyourshield.jpg', 'https://play.google.com/store/apps/details?id=com.Leapsmith.DrawYourShield', 'Draw Your Shield', 'Android-peli ohjelmoitu C#-kielellä Unityssä. <br><b>>250 latausta<br>4.43/5★</b>' 'Android game programmed in C# using Unity.<br><b>>250 Downloads<br>4,33/5★</b>');
+?>
+</div>
+<h1>CV</h1>
+<div id="cv">
+<?php
 
+    createCvCard('storaenso.jpg', 
+    'Stora Enso', 
+    'It Local Infra Support. Kesän ajan toimihenkilötehtävissä Varkauden Stora Enson IT-tiimissä',
+    'IT Local Infra Support at Stora Enso Varkaus', 
+    date("m/Y", strtotime("April 2018")), 
+    date("m/Y", strtotime("August 2018")));
+
+    createCvCard('jamk-light.png',
+    'JAMK', 
+    'Tieto- ja viestintätekniikan opiskelija suuntautunut ohjelmistotekniikkaan. Oletettu valmistumisvuosi 2021',
+    'Information and Communication Technologies Engineer Student', 
+    date("m/Y", strtotime("August 2017")), 
+    $current);
+
+    createCvCard('bm_wide.jpg', 
+    'Bittimestari', 
+    'Toimin yrittäjänä Varkaudessa 8/2017 asti ja siitä eteenpäin Jyväskylässä. Yritykseni tarjoaa tietokone- sekä älylaitehuoltoa, Web-suunnittelua sekä 3D-printtausta.',
+    'Sole proprietor providing computer and phone repairs, web-designing and 3D-printing. Currently located in Jyväskylä, Finland.', 
+    date("m/Y", strtotime("November 2016")),  
+    $current);
+
+    createCvCard('soisalo.jpg',
+    'Soisalo-opisto',
+    'Pelisuunnittelu ja ohjelmointi -kurssin opettaja.',
+    'Lecturer at Soisalo-opisto teching game design principles and programming',
+    date("m/Y", strtotime("October 2018")),
+    date("m/Y", strtotime("March 2018")));
+
+    createCvCard('matrix_multimedia_logo.gif', 
+    'Matrix Technology Solutions', 
+    'Kuukauden mittainen kansainvälinen työssäoppmisjakso Matrix Technology Solutionsilla. Työtehtäviin kuului mm. ohjelmistojen tuottaminen mikrocontrollereille sekä uuden softaversion QA-testaus',
+    'International month long internship at Matrix Technology Solutions. Work consisted of creating software for microcontrollers and QA-testing the latest version of the software', 
+    date("m/Y", strtotime("September 2018")), 
+    date("m/Y", strtotime("September 2018")));
+
+    createCvCard('lakiasiaintoimisto-majakka-logo-pieni.jpg',
+    'Lakimajakka Oy - Dekkarit-festivaali',
+    'Verkkosivujen tuottaminen Dekkarit-festivaaleille sekä tapahtuman live-striimaus youtubeen.',
+    'Web-design for Dekkarit-festival and livestreaming the festival to Youtube.',
+    date("m/Y", strtotime("May 2016")),
+    date("m/Y", strtotime("July 2016")));
+
+    createCvCard('dataenterlogo.svg',
+    'Data-Enter Oy',
+    'Kolmen kuukauden mittainen ICT-alan työssäoppimisjakso. Tietokonehuoltoja, serverien asennuksia, asiakaspalvelua',
+    'Three month internship. Work consisted of computer repairs, server installations and customer service.',
+    date("m/Y", strtotime("January 2016")),
+    date("m/Y", strtotime("March 2016")));
+
+    createCvCard('sakky.jpg',
+    'Savon ammatti- ja aikuisopisto',
+    'Tieto- ja tietoliikennetekniikan perustutkinto. ICT-asentaja.',
+    'ICT-Technician',
+    date("m/Y", strtotime("August 2014")),
+    date("m/Y", strtotime("May 2017")));
 ?>
 </div>
 </div>
