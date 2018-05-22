@@ -319,11 +319,13 @@ createHobbyCard('3dprinttaus.JPG',
 'One of my hobbies are 3D-printing. For modeling I use Fusion360(cad), Innovator(cad), Blender and Medium(VR-sculpting)');
 ?>
 <br>
-
+</div>
+<div id="contact">
 <h1> Ota yhteyttä! </h1>
 <h3> Jos kiinnostuit tai haluat lisätietoja minusta tai töistäni, haluat palkata minut tai muuten vaan rupatella niin soita tai laita sähköpostia!</h3>
-<h2> 0400975446 </h2>
-<h2> ilpo.loikkanen@bittimestari.fi </h2>
+<br><h3> 0400975446 </h3><br>
+<h3> ilpo.loikkanen@bittimestari.fi </h3>
+</div>
 </div>
 </div>
 
