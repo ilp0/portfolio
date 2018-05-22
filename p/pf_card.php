@@ -1,11 +1,11 @@
 <?php 
 
 function createPfCard($imagepath, $imagelink, $title, $text, $textEng){
-    $t = '';
+    $t = "";
     if($_GET["lang"] === 'en') {
-        $t = $textEng 
+        $t = $textEng; 
     } else {
-        $t = $text
+        $t = $text;
     } 
     echo('<div class="kortti">
         <div class="web_korttiImg">
@@ -20,7 +20,7 @@ function createPfCard($imagepath, $imagelink, $title, $text, $textEng){
 }
 
 function createCvCard($imagepath, $title, $text, $textEng, $fromDate, $toDate){
-    $t = '';
+    $t = "";
     if($_GET["lang"] === 'en') {
         $t = $textEng 
     } else {
