@@ -47,4 +47,23 @@ function createCvCard($imagepath, $title, $text, $textEng, $fromDate, $toDate){
 
 }
 
+function createHobbyCard($imagepath, $title, $text, $textEng){
+     $t = "";
+    if($_GET["lang"] === 'en') {
+        $t = $textEng; 
+    } else {
+        $t = $text;
+    }
+     echo('<div class="kortti">
+        <div class="web_korttiImg">
+                <img src="' . $imagepath . '"  alt="' . $title . '" style="width:100%">
+            </div>
+        <div class="korttiContainer">
+            <h3>' . $title . '</h3>
+                <p>' . $t . '</p>
+        </div>
+    </div>'
+    );
+}
+
 ?>
