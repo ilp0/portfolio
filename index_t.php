@@ -34,8 +34,8 @@ if($_GET['lang'] == 'eng') {
         <ul id="sidebar">
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#cv">CV</a></li>
-            <li><a href="#taidot">Taidot</a></li>
-            <li><a href="#minusta">Minusta</a></li>
+            <li><a href="#taidot">Skills</a></li>
+            <li><a href="#minusta">Minä</a></li>
             <li><a href="https://github.com/ilp0">GitHub</a></li>
             </ul>
             <table id="social-table">
@@ -257,6 +257,23 @@ if($_GET['lang'] == 'eng') {
                                             <h3 style="text-align:center;">Muut</h3>
                                       <br>
                                       <ul>
+                                      <?php 
+                                        if($_GET["lang"] === "en") {
+                                            echo('
+                                             <li>
+                                            <p>Fast learner</p>
+                                            </li>
+                                            <li>
+                                            <p>Trustworthy</p>
+                                            </li>   
+                                            <li>
+                                            <p>I can work alone and in a group</p>
+                                            </li> 
+                                            <li>
+                                            <p>I\'m pretty chill and flexible person and I can keep my cool in a tough situation.</p>
+                                            </li>');
+                                            } else {
+                                            echo('
                                             <li>
                                             <p>Nopea oppimaan</p>
                                             </li>
@@ -271,7 +288,8 @@ if($_GET['lang'] == 'eng') {
                                             </li> 
                                             <li>
                                                 <p>Luonteelta rento ja joustava</p>
-                                            </li>
+                                            </li>');
+                                            }
                                       </ul>
 
                                 </table>
@@ -279,7 +297,7 @@ if($_GET['lang'] == 'eng') {
                             </div>     
             </div>
         <div>
-        <h1>Minusta</h1>
+        <h1>Minä</h1>
         <h3 style="text-align:center;">Harrastukset</h3>
         <p style="text-align:center;">Harrastuksiini kuuluu retro- ja PC-pelaaminen, ohjelmointi, elektroniikka, mekaaniset näppäimistöt, golf sekä kahvihifistely.</p>
 <div id="minusta">
@@ -299,6 +317,12 @@ createHobbyCard('3dprinttaus.JPG',
 'Harrastan 3D-printtaamista, kotoa löytyy oma 3D-printteri. Mallinnuksessa käytön Fusion360(cad), Innovator(cad), Blender ja Medium(VR-mallinnus) ohjelmistoja',
 'One of my hobbies are 3D-printing. For modeling I use Fusion360(cad), Innovator(cad), Blender and Medium(VR-sculpting)');
 ?>
+<br>
+
+<h1> Ota yhteyttä! </h1>
+<h3> Jos kiinnostuit tai haluat lisätietoja minusta tai töistäni, haluat palkata minut tai muuten vaan rupatella niin soita tai laita sähköpostia!</h3>
+<h2> 0400975446 </h2>
+<h2> ilpo.loikkanen@bittimestari.fi </h2>
 </div>
 </div>
 
