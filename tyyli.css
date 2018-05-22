@@ -180,6 +180,9 @@ object-fit: contain;
     object-fit: contain;
     -o-object-fit: contain;
 }
+.web_korttiImg img {
+    width:100%;
+    }
 .korttiContainer  {
     padding:10px 16px;
 }
