@@ -175,6 +175,11 @@ object-fit: contain;
     -o-object-fit: contain;
 
 }
+
+.web_korttiImg img{
+    width:100%;
+    }
+
 .web_korttiImg{
     padding: 0px;
     object-fit: contain;
