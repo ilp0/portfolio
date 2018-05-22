@@ -173,11 +173,6 @@ td {
 padding: 20px;
 object-fit: contain;
     -o-object-fit: contain;
-
-}
-
-img {
-    width:100%;
 }
 
 .web_korttiImg{
