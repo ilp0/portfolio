@@ -43,7 +43,7 @@ function createCvCard($imagepath, $title, $text, $textEng, $fromDate, $toDate){
                     </tr>
                 </table>
             </div>
-    </div>')
+    </div>');
 
 }
 
