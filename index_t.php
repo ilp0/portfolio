@@ -86,24 +86,13 @@ if($_GET['lang'] == 'eng') {
 
     <div id="portfolio">
 <?php
-    createPfCard('varkaudentaekwondo.jpg',
-    'http://varkaudentaekwondo.fi',
-    'varkaudentaekwondo.fi',
-    'Asiakastyö varkautelaiselle taekwondo seuralle',
-    'Website for Varkauden Taekwondo');
-    
-    createPfCard('torvinen-rouvinen.jpg', 
-    'http://torvinen-rouvinen.fi', 
-    'torvinen-rouvinen.fi', 
-    'Asiakastyö taiteilijoille Meeri Torvinen-Rouvinen ja Maria Rouvinen-Mäkelä', 
-    'Website for artists Meeri Torvinen-Rouvinen and Maria Rouvinen-Mäkelä');
-    
-    createPfCard('virevalmennus.jpg', 
-    'http://virevalmennus.fi', 
-    'virevalmennus.fi', 
-    'Asiakastyö varkautelaiselle Personal Trainerille', 
-    'Website for a Personal Trainer');
-    
+   
+   createPfCard('splitterino.png',
+   'https://github.com/ilp0/splitterino',
+   'Splitterino (GPLv3)',
+   'Speedrun ajastin ohjelmoitu C#-kielellä käyttäen WPF-kirjastoa.',
+   'Speedrun timer programmed in C# and WPF.');
+
     createPfCard('screenshot.png', 
     'https://github.com/ilp0/typest', 
     'Typest (GPLv3)',
@@ -128,6 +117,24 @@ if($_GET['lang'] == 'eng') {
     'Pyöritä haluamaasi kiekkoa haluamasi ajan välein. Kontrolloi kiekkoa älypuhelimella tai tietokoneella web-selaimen avulla',
     'Spin a desired disk after a desired amount of time. Control the disc with your smartphone or computer via a web-browser');
     
+    createPfCard('varkaudentaekwondo.jpg',
+    'http://varkaudentaekwondo.fi',
+    'varkaudentaekwondo.fi',
+    'Asiakastyö varkautelaiselle taekwondo seuralle',
+    'Website for Varkauden Taekwondo');
+    
+    createPfCard('torvinen-rouvinen.jpg', 
+    'http://torvinen-rouvinen.fi', 
+    'torvinen-rouvinen.fi', 
+    'Asiakastyö taiteilijoille Meeri Torvinen-Rouvinen ja Maria Rouvinen-Mäkelä', 
+    'Website for artists Meeri Torvinen-Rouvinen and Maria Rouvinen-Mäkelä');
+    
+    createPfCard('virevalmennus.jpg', 
+    'http://virevalmennus.fi', 
+    'virevalmennus.fi', 
+    'Asiakastyö varkautelaiselle Personal Trainerille', 
+    'Website for a Personal Trainer');
+
 
     if($_GET['lang'] === 'en'){
     echo('<div class="kortti">
