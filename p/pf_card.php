@@ -2,7 +2,7 @@
 
 function createPfCard($imagepath, $imagelink, $title, $text, $textEng){
     $t = '';
-    if($_GET['lang'] == 'en') {
+    if($_GET["lang"] === 'en') {
         $t = $textEng 
     } else {
         $t = $text
@@ -21,7 +21,7 @@ function createPfCard($imagepath, $imagelink, $title, $text, $textEng){
 
 function createCvCard($imagepath, $title, $text, $textEng, $fromDate, $toDate){
     $t = '';
-    if($_GET['lang'] == 'en') {
+    if($_GET["lang"] === 'en') {
         $t = $textEng 
     } else {
         $t = $text
