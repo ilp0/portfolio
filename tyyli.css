@@ -243,7 +243,9 @@ progress {
 
 @media only screen 
 and (max-device-width : 780px){ 
-  
+    .kortti {
+    min-width:100%;
+    }
     #mobileTopBar {
         display:block;
         background-color: rgb(7, 73, 166);
