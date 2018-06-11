@@ -244,7 +244,7 @@ progress {
 @media only screen 
 and (max-device-width : 780px){ 
     .kortti {
-    min-width:100%;
+    min-width:70%;
     }
     #mobileTopBar {
         display:block;
