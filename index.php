@@ -12,8 +12,8 @@ if($_GET['lang'] == 'eng') {
 <head>
     <meta charset="utf-8">
     <title>loikkanen.io</title>
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="tyyli.css"> 
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/tyyli.css"> 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
@@ -104,7 +104,9 @@ if($_GET['lang'] == 'eng') {
 	');	 
 	 }else{
 		 echo('
-	JAMK-IT Insinööriopiskelija ja yrittäjä. 
+    Opiskelen tällä hetkellä Jyväskylän Ammattikorkeakoulussa Tieto- ja viestintätekiikan <b>insinööriksi</b> ja toimin yrittäjänä Bittimestari nimellä. Vapaa-ajallani tykkään suunnitella ja toteuttaa erinäisiä projekteja oli ne sitten elektroniikka, ohjelmointi tai palvelinhommia.<br> Olen työskennellyt niin suurissa, kuin pienissä yrityksissä. <br>
+    Erinomaisten <b>ongelmanratkaisutaitojeni, kokemukseni ja ihmistaitojeni</b> ansiosta saatan olla juuri oikea henkilö teidän <b>firmaanne!</b><br><br>
+    Haen osa-aikatyötä opiskelujen ohelle Jyväskylän alueella. 
 	');	
 	}
 	?>
@@ -156,7 +158,7 @@ if($_GET['lang'] == 'eng') {
     'https://play.google.com/store/apps/details?id=com.Leapsmith.Cliffhanger', 
     'Cliffhanger', 
     'Android-peli ohjelmoitu C#-kielellä Unityssä.<br><b>>2500 latausta<br>4,33/5★</b>', 
-    'Android game programmed in C# using Unityssä.<br><b>>2500 Downloads<br>4,33/5★</b>');
+    'Android game programmed in C# using Unity.<br><b>>2500 Downloads<br>4,33/5★</b>');
     
     createPfCard('img/drawyourshield.jpg', 
     'https://play.google.com/store/apps/details?id=com.Leapsmith.DrawYourShield', 
@@ -281,7 +283,7 @@ if($_GET['lang'] == 'eng') {
     date("m/Y", strtotime("May 2017")));
 ?>
 </div>
- <h1>Taidot</h1>
+ <h1>Skills</h1>
         <div id="taidot">
         
 
@@ -421,18 +423,17 @@ if($_GET['lang'] == 'eng') {
                             </div>     
             </div>
         <div>
-        <h1>Minä</h1>
-        <h3 style="text-align:center;">Harrastukset</h3>
-        <p style="text-align:center;">Harrastuksiini kuuluu retro- ja PC-pelaaminen, ohjelmointi, elektroniikka, mekaaniset näppäimistöt, golf sekä kahvihifistely.</p>
+        <h1>About Me</h1>
+        <h3 style="text-align:center;">Hobbies</h3>
 <div id="minusta">
 <?php
     createHobbyCard('img/ilpon-motskari.jpg',
-	    'Moottoripyöräily',
+	    'Motorcycles',
 	    'Tämänhetkinen pärrä: Suzuki GS 500 F -04',
 	    'Current bike: Suzuki GS 500 F -04');
 
     createHobbyCard('img/pelit1.jpg', 
-'Retro- ja PC-pelit', 
+'Retro & PC-games', 
 'Tykkään vapaa-ajalla rentoutua ja pelata pelejä sohvalta tai PC-nurkkauksessa', 
 'On my free time I like to relax and play games on retro consoles(SNES is my favourite!) or on my PC.');
 
@@ -453,4 +454,4 @@ createHobbyCard('img/3dprinttaus.JPG',
 <br>
 </div>
 </div>
-</div>
+</div>§
