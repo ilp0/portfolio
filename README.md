@@ -1,1 +1,5 @@
-Web-tekniikat kurssin harjoitustyö
+# Engineer students portfolio
+### Made with
+- PHP
+- Javascript
+- CSS
