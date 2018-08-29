@@ -21,6 +21,17 @@ if($_GET['lang'] == 'eng') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120952638-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120952638-2');
+</script>
+
+
 </head>
 <body>
     <!-- Desktopin vasen menu -->
@@ -130,7 +141,7 @@ if($_GET['lang'] == 'eng') {
       createPfCard('img/qkop.jpg',
 	   'http://qkop.io',
 	   'qkop.io ',
-	   'Tiedostonsiirto-palvelu. Voit jakaa tiedoston 5-merkkisen koodin avulla. Pää-käyttötarkoitus on nopea ja helppo tiedoston siirto esim. puhelimelta tietokoneelle ilman että joudut kirjautumaan pilvipalveluihin yms. Tiedosto pysyy palvelimella 5 minuttia jonka jälkeen se poistuu lopullisesti.',
+	   'Tiedostonsiirtopalvelu. Voit jakaa tiedoston 5-merkkisen koodin avulla. Pääkäyttötarkoitus on nopea ja helppo tiedoston siirto esim. puhelimelta tietokoneelle ilman että joudut kirjautumaan pilvipalveluihin yms. Tiedosto pysyy palvelimella 5 minuttia jonka jälkeen se poistuu lopullisesti.',
 	   'QKOP.IO is a short term file storage service. After uploading a max 5MB file, you can download it file with a 5 character code. Your uploaded file will stay on the server for 5 minutes and after that the file will be permanently deleted');
 	   
     createPfCard('img/screenshot.png', 
@@ -285,7 +296,7 @@ if($_GET['lang'] == 'eng') {
 </div>
  <h1>Skills</h1>
         <div id="taidot">
-        
+        <h2></h2> 
 
         <div class="kortti">
                 <div class="korttiContainer">
@@ -293,12 +304,12 @@ if($_GET['lang'] == 'eng') {
                             <tr>
                                     <td colspan="2"><h3>Development</h3></td>
                                 </tr>
-                        <tr><td style="text-align:right;"><p>C#</p></td><td><progress max="100" value="85"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>C#</p></td><td><progress max="100" value="70"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>C++</p></td><td><progress max="100" value="50"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Java</p></td><td><progress max="100" value="20"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Git</p></td><td><progress max="100" value="60"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Unity</p></td><td><progress max="100" value="60"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Olio-ohjelmointi</p></td><td><progress max="100" value="80"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Java</p></td><td><progress max="100" value="15"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Git</p></td><td><progress max="100" value="50"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Unity</p></td><td><progress max="100" value="70"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Olio-ohjelmointi</p></td><td><progress max="100" value="65"></progress></td></tr>
            
                     </table>
                 </div>
@@ -311,10 +322,10 @@ if($_GET['lang'] == 'eng') {
 				</tr>
                         <tr><td style="text-align:right;"><p>HTML5</p></td><td><progress max="100" value="90"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>CSS</p></td><td><progress max="100" value="90"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>MySQL/MariaDB</p></td><td><progress max="100" value="75"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>MySQL/MariaDB</p></td><td><progress max="100" value="60"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>WordPress</p></td><td><progress max="100" value="80"></progress></td></tr>                    
-                        <tr><td style="text-align:right;"><p>PHP</p></td><td><progress max="100" value="60"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Javascript</p></td><td><progress max="100" value="60"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>PHP</p></td><td><progress max="100" value="50"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Javascript</p></td><td><progress max="100" value="40"></progress></td></tr>
                     </table>
                     </div>
 		</div>
@@ -326,9 +337,9 @@ if($_GET['lang'] == 'eng') {
 				</tr>
                         <tr><td style="text-align:right;"><p>HP-switches</p></td><td><progress max="100" value="40"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>Cisco-switches</p></td><td><progress max="100" value="30"></progress></td></tr>
-			<tr><td style="text-align:right;"><p>Basic network understanding (Switches, Routers, DNS, DHCP, IP, MAC, etc.)</p></td><td><progress max="100" value="95"></progress></td></tr>
+			<tr><td style="text-align:right;"><p>Basic network understanding (Switches, Routing, DNS, etc.)</p></td><td><progress max="100" value="95"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>Cloudflare</p></td><td><progress max="100" value="80"></progress></td></tr>                    
-                        <tr><td style="text-align:right;"><p>AWS</p></td><td><progress max="100" value="60"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>AWS (EC2, LS, R53, SES)</p></td><td><progress max="100" value="60"></progress></td></tr>
                     </table>
                     </div>
                 </div>
@@ -448,7 +459,7 @@ createHobbyCard('img/golf.jpg',
 
 createHobbyCard('img/3dprinttaus.JPG',
 '3D-printing',
-'Harrastan 3D-printtaamista, kotoa löytyy oma 3D-printteri. Mallinnuksessa käytön Fusion360(cad), Innovator(cad), Blender ja Medium(VR-mallinnus) ohjelmistoja',
+'Harrastan 3D-printtaamista, kotoa löytyy oma 3D-printteri. Mallinnuksessa käytän Fusion360(cad), Innovator(cad), Blender ja Medium(VR-mallinnus) ohjelmistoja',
 'One of my hobbies are 3D-printing. For modeling I use Fusion360(cad), Innovator(cad), Blender and Medium(VR-sculpting)');
 ?>
 <br>
