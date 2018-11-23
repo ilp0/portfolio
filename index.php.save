@@ -49,8 +49,20 @@ if($_GET['lang'] == 'eng') {
             <li><a href="#taidot">Skills</a></li>
             <li><a href="#minusta">Me</a></li>
             <li><a href="https://github.com/ilp0">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/ilpo-loikkanen-321553140/">LinkedIn</a></li>
             </ul>
+            <table id="social-table">
+                <tr>
+                    <td>
+                        <a href="https://www.facebook.com/1lp0L"><img src="img/fblogo.png" alt="Facebook" width=32 height=32></a>
+                    </td>
+                    <td>
+                        <a href="http://bittimestari.fi"><img src="img/bm.jpg" alt="Bittimestari.fi" width=32 height=32></a>
+                    </td>
+                    <td>
+                            <a href="https://www.linkedin.com/in/ilpo-loikkanen-321553140/"><img src="img/linkedin.png" alt="LinkedIn" width=37 height=32></a>
+                    </td>
+                </tr>
+            </table>
     </div>
 </div>
 
@@ -74,6 +86,9 @@ if($_GET['lang'] == 'eng') {
                 <li id="minusta_m"><a href="#minusta">Me</a></li>
 		<li id="git_m"><a href="https://github.com/ilp0">GitHub</a></li>
 		<li> <a href="https://www.linkedin.com/in/ilpo-loikkanen-321553140/">LinkedIn</a>
+		<li> <a href="https://bittimestari.fi"> Bittimestari </a>
+		<li> <a href="https://facebook.com/1lp0L">Facebook</a>
+
             </ul>
             
 </div>
@@ -100,7 +115,7 @@ if($_GET['lang'] == 'eng') {
 	');	 
 	 }else{
 		 echo('
-    Opiskelen tällä hetkellä Jyväskylän Ammattikorkeakoulussa Tieto- ja viestintätekiikan <b>insinööriksi</b> ja toimin yrittäjänä Bittimestari toiminimellä. Vapaa-ajallani tykkään suunnitella ja toteuttaa erinäisiä projekteja oli ne sitten elektroniikka, ohjelmointi tai palvelinhommia.<br> Olen työskennellyt niin suurissa, kuin pienissä yrityksissä. <br>
+    Opiskelen tällä hetkellä Jyväskylän Ammattikorkeakoulussa Tieto- ja viestintätekiikan <b>insinööriksi</b> ja toimin yrittäjänä Bittimestari nimellä. Vapaa-ajallani tykkään suunnitella ja toteuttaa erinäisiä projekteja oli ne sitten elektroniikka, ohjelmointi tai palvelinhommia.<br> Olen työskennellyt niin suurissa, kuin pienissä yrityksissä. <br>
     Erinomaisten <b>ongelmanratkaisutaitojeni, kokemukseni ja ihmistaitojeni</b> ansiosta saatan olla juuri oikea henkilö teidän <b>firmaanne!</b><br><br>
     Haen osa-aikatyötä opiskelujen ohelle Jyväskylän alueella. 
 	');	
@@ -126,7 +141,7 @@ if($_GET['lang'] == 'eng') {
       createPfCard('img/qkop.jpg',
 	   'http://qkop.io',
 	   'qkop.io ',
-	   'Tiedostonsiirtopalvelu. Voit jakaa tiedoston 5-merkkisen koodin avulla. Pääkäyttötarkoitus on nopea ja helppo tiedoston siirto esim. puhelimelta tietokoneelle ilman että joudut kirjautumaan pilvipalveluihin yms. Tiedosto pysyy palvelimella 5 minuttia jonka jälkeen se poistuu lopullisesti.',
+	   'Tiedostonsiirtopalvelu. Voit jakaa tiedoston 5-merkkisen koodin avulla. Pääkäyttötwarkoitus on nopea ja helppo tiedoston siirto esim. puhelimelta tietokoneelle ilman että joudut kirjautumaan pilvipalveluihin yms. Tiedosto pysyy palvelimella 5 minuttia jonka jälkeen se poistuu lopullisesti.',
 	   'QKOP.IO is a short term file storage service. After uploading a max 5MB file, you can download it file with a 5 character code. Your uploaded file will stay on the server for 5 minutes and after that the file will be permanently deleted');
 	   
     createPfCard('img/screenshot.png', 
@@ -139,19 +154,16 @@ if($_GET['lang'] == 'eng') {
 	    '',
 	    'Homelab',
 	    'Kotilabra joka sisältää muun muassa: <br>
-        <ul>
-            <li>HP DL380 w/ proxmox virtuaalisointialusta</li>
-	        <li>DD-WRT -firmiksellä pyörivä reititin </li>
-	        <li>Pari "tyhmää" 1Gb kytkintä </li>
-            <li>Päätelaitteita vaikka muille jakaa</li>
-        </ul>',
+	    HP DL380 w/ proxmox virtuaalisointialusta<br>
+	    DD-WRT -firmiksellä pyörivä reititin <br>
+	    Pari "tyhmää" 1Gb kytkintä <br>
+	    Päätelaitteita vaikka muille jakaa',
 	    'Homelab with equipment: <br>
-    <ul>
-        <li>    HP DL380 w/ proxmox virtualization platform(this website is running on this server!)</li>
-	    <li>    Router with DD-WRT firmware.</li>
-	    <li>    Couple dumb 1Gb switches.</li>
-	    <li>    Too many clients to count</li>
-	</ul>');
+	    HP DL380 w/ proxmox virtualization platform(this website is running on this server!)<br>
+	    Router with DD-WRT firmware.<br>
+	    Couple dumb 1Gb switches. <br>
+	    Too many clients to count');
+	   
     
     createPfCard('img/cliffhanger.jpg', 
     'https://play.google.com/store/apps/details?id=com.Leapsmith.Cliffhanger', 
@@ -284,7 +296,7 @@ if($_GET['lang'] == 'eng') {
 </div>
  <h1>Skills</h1>
         <div id="taidot">
-        <h2></h2> 
+        
 
         <div class="kortti">
                 <div class="korttiContainer">
@@ -292,12 +304,12 @@ if($_GET['lang'] == 'eng') {
                             <tr>
                                     <td colspan="2"><h3>Development</h3></td>
                                 </tr>
-                        <tr><td style="text-align:right;"><p>C#</p></td><td><progress max="100" value="70"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>C#</p></td><td><progress max="100" value="85"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>C++</p></td><td><progress max="100" value="50"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Java</p></td><td><progress max="100" value="15"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Git</p></td><td><progress max="100" value="50"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Unity</p></td><td><progress max="100" value="70"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Olio-ohjelmointi</p></td><td><progress max="100" value="65"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Java</p></td><td><progress max="100" value="20"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Git</p></td><td><progress max="100" value="60"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Unity</p></td><td><progress max="100" value="60"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Olio-ohjelmointi</p></td><td><progress max="100" value="80"></progress></td></tr>
            
                     </table>
                 </div>
@@ -310,10 +322,10 @@ if($_GET['lang'] == 'eng') {
 				</tr>
                         <tr><td style="text-align:right;"><p>HTML5</p></td><td><progress max="100" value="90"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>CSS</p></td><td><progress max="100" value="90"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>MySQL/MariaDB</p></td><td><progress max="100" value="60"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>MySQL/MariaDB</p></td><td><progress max="100" value="75"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>WordPress</p></td><td><progress max="100" value="80"></progress></td></tr>                    
-                        <tr><td style="text-align:right;"><p>PHP</p></td><td><progress max="100" value="50"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Javascript</p></td><td><progress max="100" value="40"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>PHP</p></td><td><progress max="100" value="60"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Javascript</p></td><td><progress max="100" value="60"></progress></td></tr>
                     </table>
                     </div>
 		</div>
@@ -325,9 +337,9 @@ if($_GET['lang'] == 'eng') {
 				</tr>
                         <tr><td style="text-align:right;"><p>HP-switches</p></td><td><progress max="100" value="40"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>Cisco-switches</p></td><td><progress max="100" value="30"></progress></td></tr>
-			<tr><td style="text-align:right;"><p>Basic network understanding (Switches, Routing, DNS, etc.)</p></td><td><progress max="100" value="95"></progress></td></tr>
+			<tr><td style="text-align:right;"><p>Basic network understanding (Switches, Routers, DNS, DHCP, IP, MAC, etc.)</p></td><td><progress max="100" value="95"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>Cloudflare</p></td><td><progress max="100" value="80"></progress></td></tr>                    
-                        <tr><td style="text-align:right;"><p>AWS (EC2, LS, R53, SES)</p></td><td><progress max="100" value="60"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>AWS</p></td><td><progress max="100" value="60"></progress></td></tr>
                     </table>
                     </div>
                 </div>
@@ -447,10 +459,10 @@ createHobbyCard('img/golf.jpg',
 
 createHobbyCard('img/3dprinttaus.JPG',
 '3D-printing',
-'Harrastan 3D-printtaamista, kotoa löytyy oma 3D-printteri. Mallinnuksessa käytän Fusion360(cad), Innovator(cad), Blender ja Medium(VR-mallinnus) ohjelmistoja',
+'Harrastan 3D-printtaamista, kotoa löytyy oma 3D-printteri. Mallinnuksessa käytön Fusion360(cad), Innovator(cad), Blender ja Medium(VR-mallinnus) ohjelmistoja',
 'One of my hobbies are 3D-printing. For modeling I use Fusion360(cad), Innovator(cad), Blender and Medium(VR-sculpting)');
 ?>
 <br>
 </div>
 </div>
-</div>
+</div>§
