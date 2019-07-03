@@ -122,10 +122,52 @@ if($_GET['lang'] == 'eng') {
 
     <div id="portfolio"> 
 <?php
-   
-      createPfCard('img/qkop.jpg',
-	   'http://qkop.io',
-	   'qkop.io ',
+
+    createPfCard('img/5i.png',
+    'http://5i.fi',
+    '5i.fi ',
+    'Sivusto jolta löytyy käteviä työkaluja sisällön jakamiseen. 
+    <br>Työkalut
+    <ul>
+        <li>Linkin lyhentäjä</li>
+        <li>Muistiinpanot</li>
+        <li>Qkopio</li>
+        <li>Videon jako ja niiden selailu</li>
+    </ul><br>
+    Jotta joitain työkaluja voi käyttää, pitää tehdä käyttäjätunnus ja kirjautua sisään.',
+    'Site with useful tools centered around sharing content.
+    <br>Tools
+    <ul>
+        <li>Link shortener</li>
+        <li>Note taking</li>
+        <li>Qkopio</li>
+        <li>Uploading videos and watching them</li>
+    </ul><br>
+    To access some of the tools a user account is required.');
+
+
+    createPfCard('img/observer.svg',
+            'https://github.com/ilp0/observer',
+            'Observer',
+            'Linux-palvelimien seuranta kokonaisuus.<br /> Toteutuksessa käytössä seuraavat frameworkit ja kirjastot: 
+            <ul>
+            <li>Node.JS</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+            <li>C/C++</li>
+            </ul>',
+            'A software stack for monitoring Linux servers. <br />
+            The project was created with the following frameworks and libraries:<br />
+            <ul>
+            <li>Node.JS</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+            <li>C/C++</li>
+            </ul>');
+
+    createPfCard('img/qkop.jpg',
+	   'http://q.5i.fi',
+	   'Qkopio ',
 	   'Tiedostonsiirtopalvelu. Voit jakaa tiedoston 5-merkkisen koodin avulla. Pääkäyttötarkoitus on nopea ja helppo tiedoston siirto esim. puhelimelta tietokoneelle ilman että joudut kirjautumaan pilvipalveluihin yms. Tiedosto pysyy palvelimella 5 minuttia jonka jälkeen se poistuu lopullisesti.',
 	   'QKOP.IO is a short term file storage service. After uploading a max 5MB file, you can download it file with a 5 character code. Your uploaded file will stay on the server for 5 minutes and after that the file will be permanently deleted');
 	   
@@ -140,18 +182,20 @@ if($_GET['lang'] == 'eng') {
 	    'Homelab',
 	    'Kotilabra joka sisältää muun muassa: <br>
         <ul>
-            <li>HP DL380 w/ proxmox virtuaalisointialusta</li>
-	        <li>DD-WRT -firmiksellä pyörivä reititin </li>
-	        <li>Pari "tyhmää" 1Gb kytkintä </li>
-            <li>Päätelaitteita vaikka muille jakaa</li>
+            <li>HP DL380 G7 (proxmox)</li>
+            <li>HP Z600 (proxmox)</li>
+            <li>PfSense reititin</li>
+	        <li>DD-WRT WiFi AP</li>
+	        <li>Pari HP kytkintä</li>
         </ul>',
 	    'Homelab with equipment: <br>
-    <ul>
-        <li>    HP DL380 w/ proxmox virtualization platform(this website is running on this server!)</li>
-	    <li>    Router with DD-WRT firmware.</li>
-	    <li>    Couple dumb 1Gb switches.</li>
-	    <li>    Too many clients to count</li>
-	</ul>');
+        <ul>
+        <li>HP DL380 G7 (proxmox)</li>
+        <li>HP Z600 (proxmox)</li>
+        <li>PfSense router</li>
+        <li>DD-WRT WiFi AP</li>
+        <li>HP Switches</li>
+    </ul>');
     
     createPfCard('img/cliffhanger.jpg', 
     'https://play.google.com/store/apps/details?id=com.Leapsmith.Cliffhanger', 
@@ -170,13 +214,6 @@ if($_GET['lang'] == 'eng') {
    'Splitterino (GPLv3)',
    'Speedrun ajastin ohjelmoitu C#-kielellä käyttäen WPF-kirjastoa.',
    'Speedrun timer programmed in C# and WPF.');
-
-
-    createPfCard('img/kiekko.jpg', 
-    'https://github.com/ilp0/kiekko',
-    'Kiekko (GPLv3) WiP',
-    'Pyöritä haluamaasi kiekkoa haluamasi ajan välein. Kontrolloi kiekkoa älypuhelimella tai tietokoneella web-selaimen avulla',
-    'Spin a desired disk after a desired amount of time. Control the disc with your smartphone or computer via a web-browser');
 
     createPfCard('img/varkaudentaekwondo.jpg',
     'http://varkaudentaekwondo.fi',
@@ -224,7 +261,12 @@ if($_GET['lang'] == 'eng') {
 <h1>CV</h1>
 <div id="cv">
 <?php
-
+    createCvCard('img/ajou.png',
+    'Ajou University', 
+    'Software Engineering. Lukukauden mittainen vaihtojakso.',
+    'Software Engineering. One semester exchange student.', 
+    date("m/Y", strtotime("February 2019")), 
+    date("m/Y", strtotime("June 2019")));
     createCvCard('img/storaenso.jpg', 
     '', 
     'It Local Infra Support. Kesän ajan toimihenkilötehtävissä Varkauden Stora Enson IT-tiimissä',
