@@ -153,6 +153,9 @@ if($_GET['lang'] == 'eng') {
             <ul>
             <li>Node.JS</li>
             <li>React</li>
+            <li>React Native</li>
+            <li>Expo</li>
+            <li>Firebase</li>
             <li>Bootstrap</li>
             <li>C/C++</li>
             </ul>',
@@ -161,6 +164,9 @@ if($_GET['lang'] == 'eng') {
             <ul>
             <li>Node.JS</li>
             <li>React</li>
+            <li>React Native</li>
+            <li>Expo</li>
+            <li>Firebase</li>
             <li>Bootstrap</li>
             <li>C/C++</li>
             </ul>');
@@ -176,27 +182,7 @@ if($_GET['lang'] == 'eng') {
     'Typest (GPLv3)',
     'Komentorivillä toimiva kirjoitusnopeustesti. Ohjelmoitu C++ kielellä linux ympäristössä. Highscore systeemi PHP/MariaDB.', 
     'Typing test in linux terminal. Programmed in C++ using ncurses library. Web based highscores done with PHP/MariaDB');
-
-    createPfCard('img/kotiverkko.jpg',
-	    '',
-	    'Homelab',
-	    'Kotilabra joka sisältää muun muassa: <br>
-        <ul>
-            <li>HP DL380 G7 (proxmox)</li>
-            <li>HP Z600 (proxmox)</li>
-            <li>PfSense reititin</li>
-	        <li>DD-WRT WiFi AP</li>
-	        <li>Pari HP kytkintä</li>
-        </ul>',
-	    'Homelab with equipment: <br>
-        <ul>
-        <li>HP DL380 G7 (proxmox)</li>
-        <li>HP Z600 (proxmox)</li>
-        <li>PfSense router</li>
-        <li>DD-WRT WiFi AP</li>
-        <li>HP Switches</li>
-    </ul>');
-    
+ 
     createPfCard('img/cliffhanger.jpg', 
     'https://play.google.com/store/apps/details?id=com.Leapsmith.Cliffhanger', 
     'Cliffhanger', 
@@ -215,6 +201,16 @@ if($_GET['lang'] == 'eng') {
    'Speedrun ajastin ohjelmoitu C#-kielellä käyttäen WPF-kirjastoa.',
    'Speedrun timer programmed in C# and WPF.');
 
+    createPfCard('img/jvps.jpg',
+        'https://jvps.fi',
+        'jvps.fi',
+        'Asiakasty� �JV Pienrakennus ja Saneeraus -yritykselle',
+        'Website for JV Pienrakennus ja Saneeraus company');
+    createPfCard('img/jhiltunen.jpg',
+        'https://jhiltunen.fi',
+        'jhiltunen.fi',
+        'Asiakastyö yksityis-yrit�jälle',
+        'Website for a sole proprietor');
     createPfCard('img/varkaudentaekwondo.jpg',
     'http://varkaudentaekwondo.fi',
     'varkaudentaekwondo.fi',
@@ -233,7 +229,7 @@ if($_GET['lang'] == 'eng') {
     'Asiakastyö varkautelaiselle Personal Trainerille', 
     'Website for a Personal Trainer');
 
-
+/*
     if($_GET['lang'] === 'en'){
     echo('<div class="kortti">
                 <div class="web_korttiImg">
@@ -255,6 +251,7 @@ if($_GET['lang'] == 'eng') {
                 </div>
         </div>');     
     }
+ */
 ?>
     
 </div>
@@ -263,8 +260,8 @@ if($_GET['lang'] == 'eng') {
 <?php
     createCvCard('img/ajou.png',
     'Ajou University', 
-    'Software Engineering. Lukukauden mittainen vaihtojakso.',
-    'Software Engineering. One semester exchange student.', 
+    'Software Engineering. Lukukauden mittainen vaihtojakso Etelä-Koreassa.',
+    'Software Engineering. One semester exchange in South-Korea.', 
     date("m/Y", strtotime("February 2019")), 
     date("m/Y", strtotime("June 2019")));
     createCvCard('img/storaenso.jpg', 
@@ -337,8 +334,8 @@ if($_GET['lang'] == 'eng') {
                         <tr><td style="text-align:right;"><p>C#</p></td><td><progress max="100" value="70"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>C++</p></td><td><progress max="100" value="50"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>Java</p></td><td><progress max="100" value="15"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Git</p></td><td><progress max="100" value="50"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Unity</p></td><td><progress max="100" value="70"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Git</p></td><td><progress max="100" value="80"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Unity</p></td><td><progress max="100" value="50"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>Olio-ohjelmointi</p></td><td><progress max="100" value="65"></progress></td></tr>
            
                     </table>
@@ -350,12 +347,12 @@ if($_GET['lang'] == 'eng') {
                             <tr>
                                     <td colspan="3"><h3>Web</h3></td>
 				</tr>
-                        <tr><td style="text-align:right;"><p>HTML5</p></td><td><progress max="100" value="90"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>CSS</p></td><td><progress max="100" value="90"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>HTML5/CSS</p></td><td><progress max="100" value="90"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>MySQL/MariaDB</p></td><td><progress max="100" value="60"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>WordPress</p></td><td><progress max="100" value="80"></progress></td></tr>                    
                         <tr><td style="text-align:right;"><p>PHP</p></td><td><progress max="100" value="50"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Javascript</p></td><td><progress max="100" value="40"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Javascript</p></td><td><progress max="100" value="50"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>React</p></td><td><progress max="100" value="40"></progress></td></tr>
                     </table>
                     </div>
 		</div>
@@ -366,7 +363,7 @@ if($_GET['lang'] == 'eng') {
                                     <td colspan="3"><h3>Network related</h3></td>
 				</tr>
                         <tr><td style="text-align:right;"><p>HP-switches</p></td><td><progress max="100" value="40"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Cisco-switches</p></td><td><progress max="100" value="30"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Backblaze (B2)</p></td><td><progress max="100" value="50"></progress></td></tr>
 			<tr><td style="text-align:right;"><p>Basic network understanding (Switches, Routing, DNS, etc.)</p></td><td><progress max="100" value="95"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>Cloudflare</p></td><td><progress max="100" value="80"></progress></td></tr>                    
                         <tr><td style="text-align:right;"><p>AWS (EC2, LS, R53, SES)</p></td><td><progress max="100" value="60"></progress></td></tr>
@@ -396,7 +393,7 @@ if($_GET['lang'] == 'eng') {
                                                 <td colspan="3"><h3>Operating Systems</h3></td>
                                             </tr>
                                     <tr><td style="text-align:right;"><p>Linux</p></td><td><progress max="100" value="85"></progress></td></tr>
-                                    <tr><td style="text-align:right;"><p>Windows 7/8/10</p></td><td><progress max="100" value="100"></progress></td></tr>
+                                    <tr><td style="text-align:right;"><p>Windows 7/8/10</p></td><td><progress max="100" value="75"></progress></td></tr>
                                     <tr><td style="text-align:right;"><p>Windows Server</p></td><td><progress max="100" value="70"></progress></td></tr>
                                     <tr><td style="text-align:right;"><p>macOS/OSX</p></td><td><progress max="100" value="80"></progress></td></tr>
                                     <tr><td style="text-align:right;"><p>Android</p></td><td><progress max="100" value="90"></progress></td></tr>
@@ -415,8 +412,7 @@ if($_GET['lang'] == 'eng') {
                                     <tr><td style="text-align:right;"><p>Finnish</p></td><td><progress max="100" value="100"></progress></td></tr>
                                     <tr><td style="text-align:right;"><p>English</p></td><td><a href="docs/en-skill.pdf" style="color:black;"><u>EU framework C2 </u></a><a style="color:black;" href="https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages#Common_reference_levels"><u>(Explanation)</u></a></td></tr>
                                     <tr><td style="text-align:right;"><p>Swedish</p></td><td><progress max="100" value="15"></progress></td></tr>
-                                    <tr><td style="text-align:right;"><p>Russian</p></td><td><progress max="100" value="15"></progress></td></tr>
-                                    <tr><td style="text-align:right;"><p>Chinese(currenlty studying)</p></td><td><progress max="100" value="10"></progress></td></tr>
+                                    <tr><td style="text-align:right;"><p>Korean</p></td><td><progress max="100" value="30"></progress></td></tr>
 
                                 </table>
                             </div>
