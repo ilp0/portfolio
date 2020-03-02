@@ -23,7 +23,7 @@ function createPfCard($imagepath, $imagelink, $title, $text, $textEng, $highligh
 
 function createCvCard($imagepath, $title, $text, $textEng, $fromDate, $toDate, $highlight = 0){
     $t = "";
-    $h = "unhighlighted";a
+    $h = "unhighlighted";
     if ($highlight === 1) $h = "highlighted";
     if($_GET["lang"] === 'en') {
         $t = $textEng; 
