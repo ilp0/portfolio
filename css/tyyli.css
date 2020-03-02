@@ -372,3 +372,7 @@ font-size: 1.3em;
 #bio {
 	padding:20px;
 }
+
+.highlighted {
+    border-bottom: 20px solid #0747A6;
+}

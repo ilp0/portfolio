@@ -148,7 +148,7 @@ createPfCard('img/observer.svg',
             <li>Bootstrap</li>
             <li>C/C++</li>
             </ul>
-            If you're interested to learn more about Observer, or want to see documentation and source code, contact me.");
+            If you're interested to learn more about Observer, or want to see documentation and source code, contact me.",1);
 
     createPfCard('img/5i.png',
     'http://5i.fi',
@@ -280,14 +280,14 @@ createPfCard('img/observer.svg',
     'Tieto- ja viestintätekniikan opiskelija suuntautunut ohjelmistotekniikkaan. Oletettu valmistumisvuosi 2021',
     'Information and Communication Technologies Engineer Student', 
     date("m/Y", strtotime("August 2017")), 
-    $current);
+    $current,1);
 
     createCvCard('img/bm_wide.jpg', 
     'Bittimestari', 
     'Toimin yrittäjänä Varkaudessa 8/2017 asti ja siitä eteenpäin Jyväskylässä. Yritykseni tarjoaa tietokone- sekä älylaitehuoltoa, Web-suunnittelua sekä 3D-printtausta.',
     'Sole proprietor providing computer and phone repairs, web-designing and 3D-printing. Currently located in Jyväskylä, Finland.', 
     date("m/Y", strtotime("November 2016")),  
-    $current);
+    $current,1);
 
     createCvCard('img/soisalo.jpg',
     'Soisalo-opisto',

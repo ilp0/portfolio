@@ -1,13 +1,15 @@
 <?php 
 
-function createPfCard($imagepath, $imagelink, $title, $text, $textEng){
+function createPfCard($imagepath, $imagelink, $title, $text, $textEng, $highlight = 0){
     $t = "";
+    $h = "unhighlighted"
+    if ($highlight === 1) $h = "highlighted";
     if($_GET["lang"] === 'en') {
         $t = $textEng; 
     } else {
         $t = $text;
     } 
-    echo('<div class="kortti">
+    echo('<div class="kortti '. $h . '">
         <div class="web_korttiImg">
             <a href="' . $imagelink . '"><img src="' . $imagepath . '" alt="' . $title . '"></a>
         </div>
@@ -19,14 +21,16 @@ function createPfCard($imagepath, $imagelink, $title, $text, $textEng){
     ');
 }
 
-function createCvCard($imagepath, $title, $text, $textEng, $fromDate, $toDate){
+function createCvCard($imagepath, $title, $text, $textEng, $fromDate, $toDate, $highlight = 0){
     $t = "";
+    $h = "unhighlighted"
+    if ($highlight === 1) $h = "highlighted";
     if($_GET["lang"] === 'en') {
         $t = $textEng; 
     } else {
         $t = $text;
     } 
-    echo('<div class="kortti">
+    echo('<div class="kortti '. $h . '">
         <div class="korttiImg">
             <img src="' . $imagepath . '" alt="' . $title . '" style="width:100%">
         </div>
