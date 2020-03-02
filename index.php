@@ -204,12 +204,12 @@ if($_GET['lang'] == 'eng') {
     createPfCard('img/jvps.jpg',
         'https://jvps.fi',
         'jvps.fi',
-        'Asiakasty� �JV Pienrakennus ja Saneeraus -yritykselle',
+        'Asiakastyö JV Pienrakennus ja Saneeraus -yritykselle',
         'Website for JV Pienrakennus ja Saneeraus company');
     createPfCard('img/jhiltunen.jpg',
         'https://jhiltunen.fi',
         'jhiltunen.fi',
-        'Asiakastyö yksityis-yrit�jälle',
+        'Asiakastyö yksityis-yrttäjälle',
         'Website for a sole proprietor');
     createPfCard('img/varkaudentaekwondo.jpg',
     'http://varkaudentaekwondo.fi',
