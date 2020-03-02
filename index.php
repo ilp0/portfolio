@@ -123,6 +123,33 @@ if($_GET['lang'] == 'eng') {
     <div id="portfolio"> 
 <?php
 
+createPfCard('img/observer.svg',
+            'https://github.com/ilp0/observer',
+            'Observer',
+            'Linux-palvelimien seuranta kokonaisuus.<br /> Toteutuksessa käytössä seuraavat frameworkit ja kirjastot: 
+            <ul>
+            <li>Node.JS</li>
+            <li>React</li>
+            <li>React Native</li>
+            <li>Expo</li>
+            <li>Firebase</li>
+            <li>Bootstrap</li>
+            <li>C/C++</li>
+            </ul>
+            Jos olet kiinnostunut kuulemaan lisää Observeristä, tai haluat nähdä lähdekoodin, ota yhteyttä.',
+            "A software stack for monitoring Linux servers. <br />
+            The project was created with the following frameworks and libraries:<br />
+            <ul>
+            <li>Node.JS</li>
+            <li>React</li>
+            <li>React Native</li>
+            <li>Expo</li>
+            <li>Firebase</li>
+            <li>Bootstrap</li>
+            <li>C/C++</li>
+            </ul>
+            If you're interested to learn more about Observer, or want to see documentation and source code, contact me.");
+
     createPfCard('img/5i.png',
     'http://5i.fi',
     '5i.fi ',
@@ -146,30 +173,7 @@ if($_GET['lang'] == 'eng') {
     To access some of the tools a user account is required.');
 
 
-    createPfCard('img/observer.svg',
-            'https://github.com/ilp0/observer',
-            'Observer',
-            'Linux-palvelimien seuranta kokonaisuus.<br /> Toteutuksessa käytössä seuraavat frameworkit ja kirjastot: 
-            <ul>
-            <li>Node.JS</li>
-            <li>React</li>
-            <li>React Native</li>
-            <li>Expo</li>
-            <li>Firebase</li>
-            <li>Bootstrap</li>
-            <li>C/C++</li>
-            </ul>',
-            'A software stack for monitoring Linux servers. <br />
-            The project was created with the following frameworks and libraries:<br />
-            <ul>
-            <li>Node.JS</li>
-            <li>React</li>
-            <li>React Native</li>
-            <li>Expo</li>
-            <li>Firebase</li>
-            <li>Bootstrap</li>
-            <li>C/C++</li>
-            </ul>');
+    
 
     createPfCard('img/qkop.jpg',
 	   'http://q.5i.fi',
@@ -204,12 +208,12 @@ if($_GET['lang'] == 'eng') {
     createPfCard('img/jvps.jpg',
         'https://jvps.fi',
         'jvps.fi',
-        'Asiakastyö JV Pienrakennus ja Saneeraus -yritykselle',
-        'Website for JV Pienrakennus ja Saneeraus company');
-    createPfCard('img/jhiltunen.jpg',
+        'Web- sekä logosuunnittelu JV Pienrakennus ja Saneeraus -yritykselle',
+        'Website and logofor JV Pienrakennus ja Saneeraus company');
+    createPfCard('img/jhiltunen.png',
         'https://jhiltunen.fi',
         'jhiltunen.fi',
-        'Asiakastyö yksityis-yrttäjälle',
+        'Asiakastyö yksityisyrittäjälle',
         'Website for a sole proprietor');
     createPfCard('img/varkaudentaekwondo.jpg',
     'http://varkaudentaekwondo.fi',
@@ -332,11 +336,12 @@ if($_GET['lang'] == 'eng') {
                                     <td colspan="2"><h3>Development</h3></td>
                                 </tr>
                         <tr><td style="text-align:right;"><p>C#</p></td><td><progress max="100" value="70"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>C++</p></td><td><progress max="100" value="50"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>MySQL/MariaDB</p></td><td><progress max="100" value="70"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>C++</p></td><td><progress max="100" value="40"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>Java</p></td><td><progress max="100" value="15"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>Git</p></td><td><progress max="100" value="80"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Docker</p></td><td><progress max="100" value="70"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>Unity</p></td><td><progress max="100" value="50"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Olio-ohjelmointi</p></td><td><progress max="100" value="65"></progress></td></tr>
            
                     </table>
                 </div>
@@ -345,14 +350,13 @@ if($_GET['lang'] == 'eng') {
                 <div class="korttiContainer">
                     <table class="workTable">
                             <tr>
-                                    <td colspan="3"><h3>Web</h3></td>
+                                    <td colspan="3"><h3>Front-end</h3></td>
 				</tr>
+                <tr><td style="text-align:right;"><p>PHP</p></td><td><progress max="100" value="70"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>HTML5/CSS</p></td><td><progress max="100" value="90"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>MySQL/MariaDB</p></td><td><progress max="100" value="60"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Javascript</p></td><td><progress max="100" value="80"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>React(+ Native)</p></td><td><progress max="100" value="70"></progress></td></tr>
                         <tr><td style="text-align:right;"><p>WordPress</p></td><td><progress max="100" value="80"></progress></td></tr>                    
-                        <tr><td style="text-align:right;"><p>PHP</p></td><td><progress max="100" value="50"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Javascript</p></td><td><progress max="100" value="50"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>React</p></td><td><progress max="100" value="40"></progress></td></tr>
                     </table>
                     </div>
 		</div>
@@ -360,13 +364,15 @@ if($_GET['lang'] == 'eng') {
                 <div class="korttiContainer">
                     <table class="workTable">
                             <tr>
-                                    <td colspan="3"><h3>Network related</h3></td>
+                                    <td colspan="3"><h3>Network/Cloud related</h3></td>
 				</tr>
-                        <tr><td style="text-align:right;"><p>HP-switches</p></td><td><progress max="100" value="40"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Backblaze (B2)</p></td><td><progress max="100" value="50"></progress></td></tr>
-			<tr><td style="text-align:right;"><p>Basic network understanding (Switches, Routing, DNS, etc.)</p></td><td><progress max="100" value="95"></progress></td></tr>
-                        <tr><td style="text-align:right;"><p>Cloudflare</p></td><td><progress max="100" value="80"></progress></td></tr>                    
+                        <tr><td style="text-align:right;"><p>HP-switches</p></td><td><progress max="100" value="50"></progress></td></tr>
+			            <tr><td style="text-align:right;"><p>Basic network understanding (Switches, Routing, DNS, etc.)</p></td><td><progress max="100" value="95"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Backblaze (B2)</p></td><td><progress max="100" value="70"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>Cloudflare DNS</p></td><td><progress max="100" value="80"></progress></td></tr>                    
                         <tr><td style="text-align:right;"><p>AWS (EC2, LS, R53, SES)</p></td><td><progress max="100" value="60"></progress></td></tr>
+                        <tr><td style="text-align:right;"><p>DigitalOcean</p></td><td><progress max="100" value="80"></progress></td></tr>
+
                     </table>
                     </div>
                 </div>
@@ -377,11 +383,11 @@ if($_GET['lang'] == 'eng') {
                                 <tr>
                                         <td colspan="3"><h3>Office skills</h3></td>
                                     </tr>
+                            <tr><td style="text-align:right;"><p>UML</p></td><td><progress max="100" value="80"></progress></td></tr>
                             <tr><td style="text-align:right;"><p>Excel</p></td><td><progress max="100" value="85"></progress></td></tr>
                             <tr><td style="text-align:right;"><p>Word</p></td><td><progress max="100" value="85"></progress></td></tr>
-                            <tr><td style="text-align:right;"><p>Access</p></td><td><progress max="100" value="60"></progress></td></tr>
+                            <tr><td style="text-align:right;"><p>Access</p></td><td><progress max="100" value="20"></progress></td></tr>
                             <tr><td style="text-align:right;"><p>PowerPoint</p></td><td><progress max="100" value="70"></progress></td></tr>
-                            <tr><td style="text-align:right;"><p>UML</p></td><td><progress max="100" value="50"></progress></td></tr>
 
                         </table>
                     </div>
@@ -395,7 +401,7 @@ if($_GET['lang'] == 'eng') {
                                     <tr><td style="text-align:right;"><p>Linux</p></td><td><progress max="100" value="85"></progress></td></tr>
                                     <tr><td style="text-align:right;"><p>Windows 7/8/10</p></td><td><progress max="100" value="75"></progress></td></tr>
                                     <tr><td style="text-align:right;"><p>Windows Server</p></td><td><progress max="100" value="70"></progress></td></tr>
-                                    <tr><td style="text-align:right;"><p>macOS/OSX</p></td><td><progress max="100" value="80"></progress></td></tr>
+                                    <tr><td style="text-align:right;"><p>macOS/OSX</p></td><td><progress max="100" value="50"></progress></td></tr>
                                     <tr><td style="text-align:right;"><p>Android</p></td><td><progress max="100" value="90"></progress></td></tr>
                                     <tr><td style="text-align:right;"><p>iOS</p></td><td><progress max="100" value="90"></progress></td></tr>
 
